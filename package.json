@@ -9,16 +9,39 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "bcrypt": "^5.1.1",
+    "bcrypt": "^6.0.0",
     "mongodb": "^6.8.0",
     "mongoose": "^8.5.3",
-    "next": "14.2.5",
+    "next": "^15.5.27",
     "next-auth": "^4.24.7",
-    "react": "^18",
-    "react-dom": "^18"
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
   },
   "devDependencies": {
     "postcss": "^8",
     "tailwindcss": "^3.4.1"
+  },
+  "packageManager": "pnpm@10.33.2",
+  "pnpm": {
+    "overrides": {
+      "@babel/runtime@^7.0.0": "^7.26.10",
+      "brace-expansion@^1.0.0": "^1.1.21",
+      "brace-expansion@^2.0.0": "^2.1.7",
+      "cookie@^0.5.0": "^0.7.0",
+      "cross-spawn@^7.0.0": "^7.0.5",
+      "glob@^10.0.0": "^10.5.0",
+      "micromatch@^4.0.0": "^4.0.8",
+      "minimatch@^3.0.0": "^3.1.4",
+      "minimatch@^9.0.0": "^9.0.7",
+      "mongoose@^8.0.0": "^8.24.1",
+      "nanoid@^3.0.0": "^3.3.18",
+      "next-auth@^4.0.0": "^4.24.15",
+      "picomatch@^2.0.0": "^2.3.2",
+      "postcss-selector-parser@^6.0.0": "^7.1.6",
+      "postcss@^8.0.0": "^8.5.23",
+      "source-map-js@^1.0.0": "^1.2.2",
+      "uuid@^8.0.0": "^11.1.1",
+      "yaml@^2.0.0": "^2.8.3"
+    }
   }
 }
